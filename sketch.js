@@ -9,18 +9,18 @@ var gTextOffset = 20;
 
 // load all images into an array
 function preload() {
-  images[0] = loadImage('assets/one.png');
-  images[1] = loadImage('assets/two.png');
-  images[2] = loadImage('assets/three.png');
-  images[3] = loadImage('assets/four.png');
-  images[4] = loadImage('assets/five.png');
-  images[5] = loadImage('assets/default.png');
-  images[6] = loadImage('assets/fit1.png')
-  images[7] = loadImage('assets/fit2.png')
-  images[8] = loadImage('assets/fit3.png')
-  images[9] = loadImage('assets/fit4.png')
-  images[10] = loadImage('assets/fit5.png')
-  images[11] = loadImage('assets/background1.gif')
+  images[0] = loadImage('one.png');
+  images[1] = loadImage('two.png');
+  images[2] = loadImage('three.png');
+  images[3] = loadImage('four.png');
+  images[4] = loadImage('five.png');
+  images[5] = loadImage('default.png');
+  images[6] = loadImage('fit1.png')
+  images[7] = loadImage('fit2.png')
+  images[8] = loadImage('fit3.png')
+  images[9] = loadImage('fit4.png')
+  images[10] = loadImage('fit5.png')
+  images[11] = loadImage('background.png')
 }
 
 // Center drawing, drawFunction will be one for default
